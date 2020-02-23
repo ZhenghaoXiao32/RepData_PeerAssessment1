@@ -94,7 +94,7 @@ plot1 <- qplot(steps_per_day, xlab = "Total Steps Recorded Per Day", ylab = "Fre
 plot1
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](https://github.com/ZhenghaoXiao32/RepData_PeerAssessment1/blob/master/figure/plot1.png)<!-- -->
 
 ```r
 ggsave("plot1.png", plot1)
@@ -131,7 +131,7 @@ plot2 <- ggplot(avg_steps_pattern, aes(interval, mean_steps)) +
 plot2
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/ZhenghaoXiao32/RepData_PeerAssessment1/blob/master/figure/plot2.png)<!-- -->
 
 ```r
 ggsave("plot2.png", plot2)
@@ -180,7 +180,7 @@ plot3 <- qplot(imputed_steps_per_day, xlab = "Total Steps Per Day After Imputati
 plot3
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![](https://github.com/ZhenghaoXiao32/RepData_PeerAssessment1/blob/master/figure/plot3.png)<!-- -->
 
 ```r
 ggsave("plot3.png", plot3)
@@ -220,7 +220,7 @@ plot4 <- ggplot(agg_imputed_act_df, aes(interval, steps)) +
 plot4
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](https://github.com/ZhenghaoXiao32/RepData_PeerAssessment1/blob/master/figure/plot4.png)<!-- -->
 
 ```r
 ggsave("plot4.png", plot4)
